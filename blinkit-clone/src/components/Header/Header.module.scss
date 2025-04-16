@@ -1,0 +1,38 @@
+.headerContainer {
+  display: flex;
+  padding: 20px;
+  gap: 3rem;
+  align-items: center;
+  border-bottom: 1px solid rgb(189, 184, 184);
+  .logoIcon {
+    width: 160px;
+    height: 40px;
+  }
+  .cartContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+    width: 95px;
+    height: 50px;
+    border-radius: 8px;
+    color: white;
+    gap: 8px;
+    padding: 6px;
+    cursor: pointer;
+  }
+  .searchBarContainer {
+    display: flex;
+    flex: 1;
+  }
+  .drawerOverlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 15%;
+    height: 100%;
+    z-index: 999;
+    background-color: white;
+    overflow: scroll;
+  }
+}
